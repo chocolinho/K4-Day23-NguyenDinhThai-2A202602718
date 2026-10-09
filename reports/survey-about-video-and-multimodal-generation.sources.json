@@ -1,0 +1,146 @@
+[
+  {
+    "n": 1,
+    "id": "10.1007/s10462-025-11331-6",
+    "url": "https://link.springer.com/article/10.1007/s10462-025-11331-6",
+    "title": "Video Diffusion Generation: Comprehensive Review and Open Problems",
+    "date": "2025-08-20",
+    "source": "web"
+  },
+  {
+    "n": 2,
+    "id": "10.1145/3696415",
+    "url": "https://dl.acm.org/doi/full/10.1145/3696415",
+    "title": "A Survey on Video Diffusion Models",
+    "date": "2024-11-07",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "sora-2024",
+    "url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+    "title": "Video generation models as world simulators",
+    "date": "2024-02-15",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "CVPRW-2026-Safavigerdini",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026W/VGBE/papers/Safavigerdini_Generative_AI_Video_Evaluation_Survey_of_Metrics_Benchmarks_and_Trustworthiness_CVPRW_2026_paper.pdf",
+    "title": "Generative AI Video Evaluation: Survey of Metrics, Benchmarks, and Trustworthiness",
+    "date": "2026-06-01",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "2512.22905",
+    "url": "https://huggingface.co/papers/2512.22905",
+    "title": "JavisGPT: A Unified Multi-modal LLM for Sounding-Video Comprehension and Generation",
+    "date": "2025-12-28",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "2411.00769",
+    "url": "https://huggingface.co/papers/2411.00769",
+    "title": "GameGen-X: Interactive Open-world Game Video Generation",
+    "date": "2024-11-01",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "CVPR-2025-supp",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/supplemental/Yin_Towards_Precise_Scaling_CVPR_2025_supplemental.pdf",
+    "title": "Towards Precise Scaling Laws for Video Diffusion Transformers",
+    "date": "2025-06-01",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "2410.08184",
+    "url": "https://arxiv.org/abs/2410.08184",
+    "title": "Scaling Laws For Diffusion Transformers",
+    "date": "2024-10-10",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "2411.13503v1",
+    "url": "https://arxiv.org/html/2411.13503v1",
+    "title": "VBench++: Comprehensive and Versatile Benchmark Suite for Video Generative Models",
+    "date": "2024-11-19",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "CVPR-2026-Wei",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wei_UniVBench_Towards_Unified_Evaluation_for_Video_Foundation_Models_CVPR_2026_paper.pdf",
+    "title": "UniVBench: Towards Unified Evaluation for Video Foundation Models",
+    "date": "2026-06-01",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "203-yan23b",
+    "url": "https://proceedings.mlr.press/v202/yan23b/yan23b.pdf",
+    "title": "Temporally Consistent Transformers for Video Generation",
+    "date": "2023-07-01",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "nips-2024-freelong",
+    "url": "https://papers.nips.cc/paper_files/paper/2024/file/ed67dff7cb96e7e86c4d91c0d5db49bb-Paper-Conference.pdf",
+    "title": "FreeLong: Training-Free Long Video Generation with SpectralBlend Temporal Attention",
+    "date": "2024-12-01",
+    "source": "web"
+  },
+  {
+    "n": 13,
+    "id": "2604.15911",
+    "url": "https://arxiv.org/html/2604.15911",
+    "title": "Efficient Video Diffusion Models: Advancements and Challenges",
+    "date": "2026-04-15",
+    "source": "web"
+  },
+  {
+    "n": 14,
+    "id": "2510.04999",
+    "url": "https://arxiv.org/pdf/2510.04999",
+    "title": "A Comprehensive Survey of Text-to-Video Generative Models",
+    "date": "2025-10-04",
+    "source": "web"
+  },
+  {
+    "n": 15,
+    "id": "2507.16869v1",
+    "url": "https://arxiv.org/html/2507.16869v1",
+    "title": "Controllable Video Generation: A Survey",
+    "date": "2025-07-22",
+    "source": "web"
+  },
+  {
+    "n": 16,
+    "id": "10.1145/3802588",
+    "url": "https://dl.acm.org/doi/full/10.1145/3802588",
+    "title": "A Survey: Spatiotemporal Consistency in Video Generation",
+    "date": "2026-05-18",
+    "source": "web"
+  },
+  {
+    "n": 17,
+    "id": "2403.16407",
+    "url": "https://www.alphaxiv.org/abs/2403.16407",
+    "title": "A Survey on Long Video Generation: Challenges, Methods, and Prospects",
+    "date": "2024-03-25",
+    "source": "web"
+  },
+  {
+    "n": 18,
+    "id": "2610.12458",
+    "url": "https://huggingface.co/papers/2610.12458",
+    "title": "OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning",
+    "date": "2026-10-08",
+    "source": "hf-daily"
+  }
+]

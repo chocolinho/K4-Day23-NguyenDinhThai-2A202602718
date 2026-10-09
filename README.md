@@ -18,7 +18,7 @@ Sau lab, bạn có thể:
 
 ```mermaid
 flowchart TD
-    U["python research.py &quot;survey about world model&quot;"] --> S["open_sandbox() - Daytona"]
+    U["python research.py &quot;survey about world model&quot;"] --> S["open_sandbox() - Daytona hoặc Docker"]
     S --> L["Lead agent: write_todos, chia N câu hỏi con"]
     L -->|task x N, song song| R["researcher subagents"]
     R --> T1["arxiv_search"]
@@ -26,7 +26,7 @@ flowchart TD
     R --> T3["web_search / web_fetch (Exa MCP)"]
     R --> N["ghi chú trong sandbox: /tmp/work/research/notes"]
     N --> M["Lead gộp: sources.json + report.md"]
-    M --> F["execute: finalize_citations.py (có sẵn)"]
+    M --> F["execute: normalize_sources.py + finalize_citations.py"]
     F --> V["execute: check_citations.py"]
     V --> C["citation-checker subagent kiểm tra mẫu"]
     C --> D["download -> reports/slug.md, .sources.json, .meta.json"]
@@ -56,6 +56,8 @@ Lab/
 ├── agents.py                 SINH VIÊN CÀI ĐẶT: prompt, subagent, lead agent
 ├── research.py               SINH VIÊN CÀI ĐẶT: script chính
 ├── check_citations.py        SINH VIÊN CÀI ĐẶT: kiểm tra trích dẫn, chạy TRONG sandbox
+├── normalize_sources.py      Chuẩn hóa URL/họ nguồn trong sandbox trước khi kiểm tra
+├── repair_reports.py         Kiểm tra lại báo cáo có sẵn trong sandbox
 └── reports/                  báo cáo sinh ra (bạn commit vào repo nộp)
 ```
 
@@ -91,6 +93,23 @@ python research.py "survey about world model"
 ```
 
 Kết quả nằm ở `reports/survey-about-world-model.md` cùng `.sources.json` và `.meta.json`.
+
+Trên Windows PowerShell với Gemini và Docker cục bộ:
+
+```powershell
+py -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+Copy-Item .env.example .env
+# Trong .env: điền GOOGLE_API_KEY, EXA_API_KEY; đặt SANDBOX=docker.
+# Khởi động Docker Desktop trước khi chạy.
+.\.venv\Scripts\python.exe research.py "survey about world model"
+.\.venv\Scripts\python.exe self_check.py
+```
+
+Để kiểm tra lại một báo cáo đã sinh mà không gọi LLM, dùng
+`python repair_reports.py <report-slug>`. Script đưa tệp vào Docker, chuẩn hóa
+nguồn và trích dẫn, chạy validator rồi tải bản hợp lệ về. Không sửa báo cáo
+trực tiếp trên host.
 
 ## 6. Chủ đề và nộp bài
 

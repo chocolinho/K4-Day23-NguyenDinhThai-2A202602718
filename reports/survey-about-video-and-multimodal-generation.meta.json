@@ -1,0 +1,25 @@
+{
+  "topic": "survey about video and multimodal generation",
+  "model": "google_genai:gemini-3.5-flash-lite",
+  "elapsed_s": 265.7,
+  "subagent_calls": 4,
+  "tool_calls": {
+    "write_todos": 7,
+    "ls": 4,
+    "execute": 4,
+    "task": 4,
+    "read_file": 6,
+    "write_file": 2,
+    "grep": 2
+  },
+  "tokens": {
+    "input": 371012,
+    "output": 8086
+  },
+  "n_sources": 18,
+  "source_families": [
+    "hf-daily",
+    "hf-search",
+    "web"
+  ]
+}

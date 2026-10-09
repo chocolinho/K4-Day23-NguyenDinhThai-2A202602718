@@ -1,0 +1,114 @@
+[
+  {
+    "n": 1,
+    "id": "2503.19786",
+    "url": "https://arxiv.org/abs/2503.19786",
+    "title": "Gemma 3 Technical Report",
+    "date": "2025-03-25",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2404.14219",
+    "url": "https://arxiv.org/abs/2404.14219",
+    "title": "Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone",
+    "date": "2024-04-23",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2409.11055",
+    "url": "https://arxiv.org/abs/2409.11055",
+    "title": "Exploring the Trade-Offs: Quantization Methods, Task Difficulty, and Model Size in Large Language Models From Edge to Giant",
+    "date": "2024-09-17",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "2402.17764",
+    "url": "https://arxiv.org/abs/2402.17764",
+    "title": "The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits",
+    "date": "2024-02-27",
+    "source": "arxiv"
+  },
+  {
+    "n": 5,
+    "id": "2407.09527",
+    "url": "https://arxiv.org/abs/2407.09527",
+    "title": "BitNet b1.58 Reloaded: State-of-the-Art Performance Also on Smaller Networks",
+    "date": "2024-07-12",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "vllm-blog-2023",
+    "url": "https://vllm.ai/blog/2023-06-20-vllm",
+    "title": "vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention",
+    "date": "2023-06-20",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "2307.08691",
+    "url": "https://arxiv.org/abs/2307.08691",
+    "title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning",
+    "date": "2023-07-17",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "2407.08608",
+    "url": "https://arxiv.org/abs/2407.08608",
+    "title": "FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision",
+    "date": "2024-07-11",
+    "source": "arxiv"
+  },
+  {
+    "n": 9,
+    "id": "2402.02750",
+    "url": "https://arxiv.org/abs/2402.02750",
+    "title": "KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache",
+    "date": "2024-02-04",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "id": "2309.17453",
+    "url": "https://arxiv.org/abs/2309.17453",
+    "title": "Efficient Streaming Language Models with Attention Sinks",
+    "date": "2023-09-29",
+    "source": "arxiv"
+  },
+  {
+    "n": 11,
+    "id": "2603.03383",
+    "url": "https://arxiv.org/abs/2603.03383",
+    "title": "Accelerating OpenPangu Inference on NPU via Speculative Decoding",
+    "date": "2026-03-03",
+    "source": "arxiv"
+  },
+  {
+    "n": 12,
+    "id": "2506.01986",
+    "url": "https://huggingface.co/papers/2506.01986",
+    "title": "SpecMemo: Speculative Decoding is in Your Pocket",
+    "date": "2025-05-16",
+    "source": "hf-search"
+  },
+  {
+    "n": 13,
+    "id": "2403.09919",
+    "url": "https://huggingface.co/papers/2403.09919",
+    "title": "Recurrent Drafter for Fast Speculative Decoding in Large Language Models",
+    "date": "2024-03-14",
+    "source": "hf-search"
+  },
+  {
+    "n": 14,
+    "id": "vllm-blog-2025",
+    "url": "https://vllm.ai/blog/2025-09-05-anatomy-of-vllm",
+    "title": "Anatomy of a High-Throughput LLM Inference System",
+    "date": "2025-09-05",
+    "source": "web"
+  }
+]

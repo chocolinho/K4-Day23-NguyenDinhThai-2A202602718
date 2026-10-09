@@ -1,0 +1,114 @@
+[
+  {
+    "n": 1,
+    "id": "2406.09279",
+    "url": "https://arxiv.org/abs/2406.09279",
+    "title": "Unpacking DPO and PPO: Disentangling Best Practices for Learning from Preference Feedback",
+    "date": "2024-10-07",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2406.03816",
+    "url": "https://huggingface.co/papers/2406.03816",
+    "title": "ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search",
+    "date": "2024-06-06",
+    "source": "hf-search"
+  },
+  {
+    "n": 3,
+    "id": "2406.06592",
+    "url": "https://huggingface.co/papers/2406.06592",
+    "title": "Improve Mathematical Reasoning in Language Models by Automated Process Supervision",
+    "date": "2024-06-05",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2510.00492",
+    "url": "https://huggingface.co/papers/2510.00492",
+    "title": "Rethinking Reward Models for Multi-Domain Test-Time Scaling",
+    "date": "2025-10-01",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2402.04265",
+    "url": "https://arxiv.org/abs/2602.04265",
+    "title": "Boosting LLM Reasoning via Human-Inspired Reward Shaping",
+    "date": "2026-02-04",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2501.19306",
+    "url": "https://arxiv.org/html/2501.19306v3",
+    "title": "Self-Enhanced Test-Time Scaling (SETS)",
+    "date": "unknown",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "2412.09078",
+    "url": "https://arxiv.org/html/2412.09078v1",
+    "title": "Scaling Test-Time Compute for Enhancing LLM Reasoning (Forest-of-Thought)",
+    "date": "unknown",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "2025.emnlp-main.931",
+    "url": "https://aclanthology.org/2025.emnlp-main.931.pdf",
+    "title": "Step-level Verifier-guided Hybrid Test-Time Scaling for Large Language Models",
+    "date": "unknown",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "llm-verification",
+    "url": "https://cdn.agenticlearning.ai/c44f1de5488ae5dc/llm-verification.pdf",
+    "title": "When Does Verification Pay Off? A Closer Look at LLMs as Solution Verifiers",
+    "date": "unknown",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "2305.18290",
+    "url": "https://arxiv.org/abs/2305.18290",
+    "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+    "date": "2023-05-29",
+    "source": "arxiv"
+  },
+  {
+    "n": 11,
+    "id": "2404.10719",
+    "url": "https://arxiv.org/abs/2404.10719",
+    "title": "Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study",
+    "date": "2024-10-10",
+    "source": "arxiv"
+  },
+  {
+    "n": 12,
+    "id": "2501.19443",
+    "url": "https://arxiv.org/abs/2501.19443",
+    "title": "Mixed Preference Optimization: A Two-stage Reinforcement Learning for LLM Alignment",
+    "date": "2025-01-22",
+    "source": "arxiv"
+  },
+  {
+    "n": 13,
+    "id": "2602.09305",
+    "url": "https://arxiv.org/abs/2602.09305",
+    "title": "Reward Modeling for Reinforcement Learning-Based LLM Reasoning",
+    "date": "2026-02-09",
+    "source": "web"
+  },
+  {
+    "n": 14,
+    "id": "2408.03314",
+    "url": "https://arxiv.org/pdf/2408.03314v1",
+    "title": "Scaling Inference-Time Computation in LLMs",
+    "date": "unknown",
+    "source": "web"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "n": 1,
+    "id": "10.1145/3746449",
+    "url": "https://dl.acm.org/doi/10.1145/3746449",
+    "title": "Understanding World or Predicting Future? A Comprehensive Survey of World Models",
+    "date": "2025-09-09",
+    "source": "web"
+  },
+  {
+    "n": 2,
+    "id": "2301.04104",
+    "url": "https://arxiv.org/abs/2301.04104",
+    "title": "Mastering Diverse Domains through World Models",
+    "date": "2023-01-10",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "1803.10122",
+    "url": "https://arxiv.org/abs/1803.10122",
+    "title": "World Models",
+    "date": "2018-03-27",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "sora-technical-report",
+    "url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+    "title": "Video Generation Models as World Simulators",
+    "date": "2024-02-15",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "2402.15391",
+    "url": "https://arxiv.org/abs/2402.15391",
+    "title": "Genie: Generative Interactive Environments",
+    "date": "2024-02-23",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "2405.12399",
+    "url": "https://arxiv.org/abs/2405.12399",
+    "title": "Diffusion for World Modeling: Visual Details Matter in Atari (DIAMOND)",
+    "date": "2024-05-21",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "2311.17918",
+    "url": "https://huggingface.co/papers/2311.17918",
+    "title": "Driving into the Future: Multiview Visual Forecasting and Planning with World Model for Autonomous Driving",
+    "date": "2023-11-29",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "id": "2605.00080",
+    "url": "https://huggingface.co/papers/2605.00080",
+    "title": "World Model for Robot Learning: A Comprehensive Survey",
+    "date": "2026-04-30",
+    "source": "hf-search"
+  },
+  {
+    "n": 9,
+    "id": "2607.05966",
+    "url": "https://arxiv.org/abs/2607.05966",
+    "title": "Imagined Rollouts Are Kinematic, Not Dynamic: A Diagnosis of Long-Horizon World-Model Failure",
+    "date": "2026-07-07",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "2301.08243",
+    "url": "https://arxiv.org/abs/2301.08243",
+    "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture (I-JEPA)",
+    "date": "2023-01-18",
+    "source": "arxiv"
+  },
+  {
+    "n": 11,
+    "id": "2412.20404",
+    "url": "https://arxiv.org/abs/2412.20404",
+    "title": "Open-Sora: Democratizing Efficient Video Production for All",
+    "date": "2024-12-30",
+    "source": "arxiv"
+  },
+  {
+    "n": 12,
+    "id": "carla-garage-common-mistakes-ad",
+    "url": "https://github.com/autonomousvision/carla_garage/blob/leaderboard_2/docs/common_mistakes_in_benchmarking_ad.md",
+    "title": "Common Mistakes in Benchmarking Autonomous Driving",
+    "date": "2024-01-01",
+    "source": "web"
+  }
+]
