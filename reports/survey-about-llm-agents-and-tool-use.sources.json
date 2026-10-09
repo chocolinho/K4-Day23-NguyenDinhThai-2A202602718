@@ -116,7 +116,7 @@
     "id": "2601.1850",
     "url": "https://aclanthology.org/2026.findings-acl.1850.pdf",
     "title": "ToolSafe: Enhancing Tool Invocation Safety of LLM-based Agents via Proactive Step-level Guardrail and Feedback",
-    "date": "2026-01-01",
+    "date": "unknown",
     "source": "web"
   },
   {
@@ -132,7 +132,7 @@
     "id": "2601.1880",
     "url": "https://aclanthology.org/2026.acl-long.1880/",
     "title": "Robust Tool Use via Fission-GRPO: Learning to Recover from Execution Errors",
-    "date": "2026-01-01",
+    "date": "unknown",
     "source": "web"
   },
   {
@@ -140,7 +140,7 @@
     "id": "2601.618",
     "url": "https://aclanthology.org/2026.findings-acl.618.pdf",
     "title": "Failure makes the agent stronger: Enhancing Accuracy through Structured Reflection for Reliable Tool Interactions",
-    "date": "2026-01-01",
+    "date": "unknown",
     "source": "web"
   }
 ]

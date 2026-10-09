@@ -21,5 +21,20 @@
     "hf-daily",
     "hf-search",
     "web"
-  ]
+  ],
+  "review": {
+    "model": "google_genai:gemini-3.5-flash-lite",
+    "elapsed_s": 14.9,
+    "subagent_calls": 0,
+    "tool_calls": {
+      "read_file": 3,
+      "glob": 2,
+      "edit_file": 2,
+      "execute": 3
+    },
+    "tokens": {
+      "input": 106603,
+      "output": 975
+    }
+  }
 }

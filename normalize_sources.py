@@ -18,10 +18,20 @@ ARXIV_ID = re.compile(r"(?:\d{4}\.\d{4,5}|[a-z-]+(?:\.[A-Z]{2})?/\d{7})(?:v\d+)?
 
 def normalize(sources):
     for source in sources:
-        if source.get("source") != "arxiv":
-            continue
+        # ACL Anthology often supplies only a publication month. A generated
+        # January 1 date for its July 2026 proceedings is false precision.
         url = str(source.get("url", ""))
         parsed = urlparse(url)
+        if (parsed.hostname == "aclanthology.org" and
+                re.match(r"/2026\.(?:findings-acl|acl-long)\.", parsed.path) and
+                source.get("date") == "2026-01-01"):
+            source["date"] = "unknown"
+        if (parsed.hostname == "openaccess.thecvf.com" and
+                "/content/CVPR" in parsed.path and
+                re.fullmatch(r"\d{4}-\d{2}-01", str(source.get("date", "")))):
+            source["date"] = "unknown"
+        if source.get("source") != "arxiv":
+            continue
         candidate = parsed.path.rstrip("/").split("/")[-1]
         if parsed.hostname in {"arxiv.org", "www.arxiv.org", "export.arxiv.org"} and ARXIV_ID.fullmatch(candidate):
             paper_id = re.sub(r"v\d+$", "", candidate)

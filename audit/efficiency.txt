@@ -1,0 +1,6 @@
+Review and revise the existing efficient inference and small language models report in the sandbox. Confirm numerical claims against the cited sources, and fix this essential factual error:
+
+- The KV-cache paragraph says the KV cache itself frequently consumes 60%-80% of total GPU memory. The source behind that figure, the vLLM authors' page https://vllm.ai/blog/2023-06-20-vllm , says existing serving systems WASTE 60%-80% of memory through fragmentation and over-reservation. It does not say KV cache occupies 60%-80% of all GPU memory. Rewrite this paragraph accurately, with citation [6] if you mention the waste figure, or remove the figure. Keep the supported Gemma and Phi-3 details.
+- Check exact figures for quantization degradation [3], BitNet 2.71x/71.4x [4], KIVI 2.6x/3.47x [9], vLLM 24x/under 4% [6], and SpecMemo 65%/96% [12]. Qualify comparisons to their experimental setting rather than stating universal results.
+
+Preserve a full survey and all required headings. Write the revised report yourself in the sandbox. Run finalizer and validator there.

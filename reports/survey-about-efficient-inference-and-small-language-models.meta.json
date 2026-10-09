@@ -20,5 +20,22 @@
     "arxiv",
     "hf-search",
     "web"
-  ]
+  ],
+  "review": {
+    "model": "google_genai:gemini-3.5-flash-lite",
+    "elapsed_s": 21.3,
+    "subagent_calls": 0,
+    "tool_calls": {
+      "read_file": 4,
+      "web_fetch": 1,
+      "grep": 4,
+      "edit_file": 2,
+      "execute": 2,
+      "glob": 2
+    },
+    "tokens": {
+      "input": 165568,
+      "output": 1205
+    }
+  }
 }

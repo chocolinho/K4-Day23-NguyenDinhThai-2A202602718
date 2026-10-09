@@ -1,0 +1,7 @@
+Review and revise the existing video and multimodal generation report in the sandbox. Confirm numerical claims against the cited sources, and fix source scope in the scaling section:
+
+- The report presents C=6ND, N_opt proportional to C^0.5681, D_opt proportional to C^0.4319, and FID scaling as if these were established specifically for video diffusion. Its source [8], https://arxiv.org/html/2410.08184 , studies diffusion transformers on image-generation data; these equations and FID observations are from that setting. Its source [7] concerns video diffusion transformers and uses a different token-cost relation involving context length: https://arxiv.org/html/2411.17470 . Distinguish image DiT evidence from video DiT results. Do not generalize the image exponents to video without evidence.
+- The AIGVE-60K claim of 58,500 videos/30 models is supported by the original LOVE paper https://arxiv.org/abs/2505.12098 ; the 2.6 million rating figure appears in the cited CVPR 2026 evaluation survey [4]. Keep attribution clear.
+- Verify other quantitative claims such as VBench++ 16 dimensions [9].
+
+Preserve a full survey and all required headings. Write the revised report yourself in the sandbox. Run finalizer and validator there.

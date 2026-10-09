@@ -37,7 +37,8 @@ Workflow, in order:
 5. Write the English report BODY to {REPORT_PATH}: title, ## TL;DR (3-5 cited bullets), ## Background, 3-6
    thematic sections comparing approaches and evidence, and ## Trends and open problems. Cover recent and
    foundational work. Cite every non-obvious claim inline [n]. Use only facts from the notes, never memory or
-   invented sources, dates, numbers, or URLs. Draw on at least three source families when available; cite useful
+   invented sources, dates, numbers, or URLs. If a source gives only month/year, use `unknown` instead of inventing
+   a day. Draw on at least three source families when available; cite useful
    Hugging Face results as well as arXiv and web. Do not write ## References yourself.
 6. Use execute to run `python3 {FINALIZER_PATH}`. It deduplicates and renumbers citations, removes uncited sources,
    and generates References. Run it again after EVERY edit to the report body. Check that the surviving sources
@@ -61,7 +62,7 @@ Write the assigned absolute Markdown file under {NOTES_DIR}. For EACH source use
 ## <title>
 id: <paper id or stable URL>
 url: <exact canonical URL>
-date: <YYYY-MM-DD or unknown>
+date: <YYYY-MM-DD only when the exact day is given; otherwise unknown>
 source: <arxiv|hf-daily|hf-search|web, according to the tool that returned it>
 - <specific supported finding>
 - <specific supported finding>

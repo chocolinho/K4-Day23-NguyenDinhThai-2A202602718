@@ -28,7 +28,7 @@
     "id": "CVPRW-2026-Safavigerdini",
     "url": "https://openaccess.thecvf.com/content/CVPR2026W/VGBE/papers/Safavigerdini_Generative_AI_Video_Evaluation_Survey_of_Metrics_Benchmarks_and_Trustworthiness_CVPRW_2026_paper.pdf",
     "title": "Generative AI Video Evaluation: Survey of Metrics, Benchmarks, and Trustworthiness",
-    "date": "2026-06-01",
+    "date": "unknown",
     "source": "web"
   },
   {
@@ -49,18 +49,18 @@
   },
   {
     "n": 7,
-    "id": "CVPR-2025-supp",
-    "url": "https://openaccess.thecvf.com/content/CVPR2025/supplemental/Yin_Towards_Precise_Scaling_CVPR_2025_supplemental.pdf",
-    "title": "Towards Precise Scaling Laws for Video Diffusion Transformers",
-    "date": "2025-06-01",
-    "source": "web"
-  },
-  {
-    "n": 8,
     "id": "2410.08184",
     "url": "https://arxiv.org/abs/2410.08184",
     "title": "Scaling Laws For Diffusion Transformers",
     "date": "2024-10-10",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "2411.17470",
+    "url": "https://arxiv.org/html/2411.17470",
+    "title": "Towards Precise Scaling Laws for Video Diffusion Transformers",
+    "date": "2024-11-25",
     "source": "web"
   },
   {
@@ -76,7 +76,7 @@
     "id": "CVPR-2026-Wei",
     "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wei_UniVBench_Towards_Unified_Evaluation_for_Video_Foundation_Models_CVPR_2026_paper.pdf",
     "title": "UniVBench: Towards Unified Evaluation for Video Foundation Models",
-    "date": "2026-06-01",
+    "date": "unknown",
     "source": "web"
   },
   {

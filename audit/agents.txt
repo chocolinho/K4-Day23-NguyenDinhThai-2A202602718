@@ -1,0 +1,7 @@
+Review and revise the existing LLM agents report in the sandbox. Confirm the numerical claims against their cited sources, and make the following essential correction:
+
+- The API-Bank paragraph says the benchmark evaluates 53 tool APIs. The cited primary source [9] at https://huggingface.co/papers/2304.08244 says its runnable evaluation system contains 73 API tools (314 tool-use dialogues, 753 calls). Correct the report to 73. Keep the citation.
+- Source records [15], [17], and [18] were published in ACL Anthology proceedings identified only as July 2026. Their previously invented exact January 1 dates were changed to `unknown` in sources.json by the sandbox normalizer. Do not reinstate fabricated exact days.
+- Confirm the other numerical statements, especially SWE-bench 2,294/12 [10], InjecAgent 1,054 and attack percentages [12], internal-representation accuracy [16], and Fission-GRPO gains [17]. If any are unsupported by their cited source, remove or qualify the claim instead of guessing.
+
+Preserve a full survey and all required headings. Write the revised report yourself in the sandbox. Run finalizer and validator there.

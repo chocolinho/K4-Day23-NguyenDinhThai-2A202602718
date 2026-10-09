@@ -58,6 +58,8 @@ Lab/
 ├── check_citations.py        SINH VIÊN CÀI ĐẶT: kiểm tra trích dẫn, chạy TRONG sandbox
 ├── normalize_sources.py      Chuẩn hóa URL/họ nguồn trong sandbox trước khi kiểm tra
 ├── repair_reports.py         Kiểm tra lại báo cáo có sẵn trong sandbox
+├── review_report.py          Agent rà và sửa báo cáo trong sandbox theo ghi chú kiểm tra
+├── audit/                    Ghi chú về các khẳng định đã rà với nguồn gốc
 └── reports/                  báo cáo sinh ra (bạn commit vào repo nộp)
 ```
 
@@ -110,6 +112,11 @@ Copy-Item .env.example .env
 `python repair_reports.py <report-slug>`. Script đưa tệp vào Docker, chuẩn hóa
 nguồn và trích dẫn, chạy validator rồi tải bản hợp lệ về. Không sửa báo cáo
 trực tiếp trên host.
+
+Khi phát hiện một khẳng định sai, ghi nguồn đối chiếu vào một tệp văn bản rồi
+chạy `python review_report.py <report-slug> <audit-notes.txt>`. Reviewer agent
+sửa báo cáo trong sandbox, chạy finalizer và validator, sau đó tải bản đã kiểm
+tra về. Các ghi chú của lần rà trước khi nộp nằm trong `audit/`.
 
 ## 6. Chủ đề và nộp bài
 
